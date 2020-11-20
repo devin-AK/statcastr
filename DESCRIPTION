@@ -1,0 +1,19 @@
+Package: statcastr
+Type: Package
+Title: Fetching and analysis of Major League Baseball (MLB) statcast data from Baseball Savant.
+Version: 0.1.0
+Author: Devin A King
+Maintainer: The package maintainer <devin.king.bio@gmail.com>
+Description: This packages enables the download of statcast data from the Baseball Savant servers.
+    It was created to enable programmatic exploration of statcast metrics.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+    data.table,
+    lubridate
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.1.1
