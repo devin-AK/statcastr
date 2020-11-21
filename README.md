@@ -78,7 +78,15 @@ boxplot(sc[player_name=='Clayton Kershaw' & pitch_type=='SL']$release_speed,ylab
 
 Findings
 ----
-I fetched statcast data for the statcast era, April 2 2017 to the present and compiled a database of players who had Tommy John surgery during this time. For each player with TJ surgery, I compared the 4 seam fastball statcast metrics of his 200 pitches immediately prior to TJ surgery, versus the 200 pitches before that. I did the same with all of the healthy pitchers, varying the time at which pitch samples were pulled to avoid systematic artifacts arising from time of season. Interestingly, pitchers who ultimately had TJ surgery exhibited a significant change in vertical release point with their 4 seam fastballs prior to TJ surgery. This change in release point is not observed in the group of healthy pitchers. These findings do not suggest causality in one direction or the other, as no assumptions can be made about whether the changes in vertical release position cause injury or are symptomatic of an underlying problem. Regardless, they may be useful in identifying UCL damage before TJ surgery is required.
+Damage to the ulnar collateral ligament (UCL) remains one of the most common injuries in Major League Baseball. From 2004 to 2014, the estimated cost of recovery (COR) for UCL reconstruction amounted to $395 million. It is of utmost importance to identify biomechanical causes and symptoms of UCL injury, in order to prevent and predict ligament rupture. 
+
+Question: Do changes in statcast metrics correlate with subsequent TJ surgery?
+
+Hypothesis: Changes in one or more metrics (e.g. release point or velocity) may indicate present or imminent injury.
+
+Methods: I fetched all statcast data from April 2 2017 to the present and also compiled a database of players who underwent Tommy John surgery during this same time period. For each player with TJ surgery, I compared his 4 seam fastball statcast metrics of the 200 pitches immediately prior to TJ surgery, with the 200 he threw before those. I repeated this analysis for all of the healthy pitchers, varying the time at which pitch samples were pulled to avoid systematic artifacts arising from time of season. Interestingly, pitchers who ultimately had TJ surgery exhibited a significant change in vertical release point with their 4 seam fastballs prior to TJ surgery. This change in release point is not observed in the group of healthy pitchers. The difference in distribution of release point change between injured and healthy pitchers is statistically significant, even after applying FDR correction for multiple hypothesis testing. 
+
+Notes: These findings do not suggest causality in one direction or the other, as no assumptions can be made about whether the changes in vertical release position cause injury or are symptomatic of an underlying problem. Regardless, they may be useful in identifying UCL damage before TJ surgery is required.
 
 ![](README_files/figure-markdown_github/TJ_players_perc_change_FF.png)
 ![](README_files/figure-markdown_github/release_drift.png)
