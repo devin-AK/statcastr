@@ -38,7 +38,10 @@ generates a server query for the number of pitches thrown on a given
 date, and then downloads data corresponding to days with at least 1
 pitch thrown. The purpose of this functionality is twofold: 1. the user
 does not need to know the MLB schedule ahead of time, and 2. it serves
-as an extra quality check, as the final number of fetched pitches.
+as an extra quality check, as the final number of fetched pitches is
+compared with the pitch number query from that date. This way if there
+is a server error during download of a particular date, the function
+will issue a warning.
 
 -\> Peak at the data with `d(sc)`, or get a summary with `summary(sc)`
 
