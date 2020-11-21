@@ -18,7 +18,7 @@ dates can be specified with the separator `" to "`.
 
 ``` r
 library(statcastr)
-sc <- fetch_statcast('2017 April 12 to 2017 April 14', verbose=F)
+sc <- fetch_statcast('2017 April 12 to 2017 April 14', verbose=TRUE)
 sc
 ```
 
