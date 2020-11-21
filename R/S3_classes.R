@@ -25,7 +25,7 @@ statcast <- function(...) {
 d <- function(object,...) {
   class(object) <- class(data.table::data.table())
   object
-})
+}
 
 ### |--------------------------| ###
 ### | Coercion                 | ###
