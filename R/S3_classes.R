@@ -12,11 +12,17 @@ statcast <- function(...) {
 ### |--------------------------| ###
 
 # Extract data
-#' @export
-setGeneric('d',function(object,...) standardGeneric('d'),valueClass='data.table')
+
+#setGeneric('d',function(object,...) standardGeneric('d'),valueClass='data.table')
+
+
+#setMethod('d','data.table',function(object,...) {
+#  class(object) <- class(data.table::data.table())
+#  object
+#})
 
 #' @export
-setMethod('d','data.table',function(object,...) {
+d <- function(object,...) {
   class(object) <- class(data.table::data.table())
   object
 })
