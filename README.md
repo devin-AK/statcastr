@@ -6,7 +6,7 @@ an R package for downloading MLB statcast data
 quick start
 -----------
 
-##### Install statcastr with `devtools::install_github(devin-AK/statcastr)`
+##### Install statcastr with `devtools::install_github("devin-AK/statcastr")`
 
 ##### Documentation is available for exported functions with e.g. `?fetch_statcast`
 
