@@ -89,5 +89,5 @@ Methods: I fetched all statcast data from April 2 2017 to the present and also c
 Notes: These findings do not suggest causality in one direction or the other, as no assumptions can be made about whether the changes in vertical release position cause injury or are symptomatic of an underlying problem. Regardless, they may be useful in identifying UCL damage before TJ surgery is required.
 
 ![](README_files/figure-markdown_github/TJ_players_perc_change_FF.png)
-![](README_files/figure-markdown_github/release_drift.png)
+![](README_files/figure-markdown_github/TJ_pitcher_vertical_release_point_change.png)
 
