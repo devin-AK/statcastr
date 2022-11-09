@@ -1,8 +1,6 @@
 an R package for downloading MLB statcast data
 ----------------------------------------------
 
-#### statcastr was created as a component of my application for the position of Junior Quantitative Analyst in the Baseball Research and Development Department of the Los Angeles Dodgers. My intention with the creation of this package is to highlight select skills most relevant for the job. My extensive academic research experience is highlighted <a href="https://stanford.edu/~devking" title="Devin King">here</a> under the CV tab. Thank you for considering my application.
-
 quick start
 -----------
 
